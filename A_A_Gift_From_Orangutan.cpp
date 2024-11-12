@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-#define f(n) for(int i = 0; i < n; i++)
+#define f(n) for(int i = 0; i < n; i++)   
 #define fastIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define int long long
 #define double long double
@@ -22,7 +22,6 @@ using namespace std;
 #define unq(v) v.resize(distance(v.begin(), unique(all(v))));
 #define endl "\n"
 #define pqmax priority_queue<int>
-#define pqmin priority_queue<int, vector<int>, greater<int>>
 #define test int t;cin>>t;while(t--) 
 #define vin(v, n)             \
   int n;                      \
